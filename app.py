@@ -6,7 +6,7 @@ import pandas as pd
 from datetime import datetime, date
 
 # ── Configure ──────────────────────────────────────────────────
-client = Groq(api_key=st.secrets["GROQ_API_KEY"])
+client = Groq(api_key="PASTE_YOUR_GROQ_KEY_HERE")
 
 st.set_page_config(page_title="Government Scheme Finder", page_icon="🇮🇳", layout="wide")
 
